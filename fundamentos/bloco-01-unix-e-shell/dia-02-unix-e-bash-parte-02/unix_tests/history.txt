@@ -1,0 +1,200 @@
+  235  cat countries.txt 
+  236  clear
+  237  man cat
+  238  less countries.txt 
+  239  grep Brazil countries.txt 
+  240  grep -i brazil countries.txt 
+  241  cat > phrases.txt 
+  242  grep -v fox phrases
+  243  grep -v fox phrases.txt 
+  244  wc -w phrases.txt 
+  245  wc -l phrases.txt 
+  246  touch empty.tbt
+  247  touch empty.pdf
+  248  ls
+  249  find .
+  250  clear
+  251  find . "*.txt"
+  252  find . "*txt"
+  253  find "*txt" .
+  254  man find
+  255  find .
+  256  find . *.txt
+  257  find . *.txt *.tbt
+  258  man ls
+  259  clear
+  260  cat phrases2.txt countries.txt > bunch_of_things.txt
+  261  ls
+  262  man sort
+  263  sort bunch_of_things.txt | > bunch_of_things.txt 
+  264  less bunch_of_things.txt 
+  265  cat phrases2.txt countries.txt > bunch_of_things.txt
+  266  less bunch_of_things.txt 
+  267  sort bunch_of_things.txt
+  268  clear
+  269  man sort
+  270  sort bunch_of_things.txt > bunch_of_things.txt 
+  271  less bunch_of_things.txt 
+  272  cat phrases2.txt countries.txt > bunch_of_things.txt
+  273  less bunch_of_things.txt 
+  274  sort bunch_of_things.txt > temp.txt
+  275  cat temp.txt > bunch_of_things.txt 
+  276  less bunch_of_things.txt 
+  277  clear
+  278  ls -l
+  279  chmod a=rw bunch_of_things.txt 
+  280  ls -l
+  281  chmod a-w bunch_of_things.txt 
+  282  ls -l
+  283  chmod 644 bunch_of_things.txt 
+  284  ls -l
+  285  clear
+  286  ps
+  287  ps -a
+  288  ps /
+  289  ps -r
+  290  ps
+  291  man ps
+  292  ps -e
+  293  clear
+  294  man ps
+  295  sleep 30 &
+  296  kill %1
+  297  ps
+  298  sleep 30
+  299  bg
+  300  sleep 300 &
+  301  sleep 200
+  302  sleep 100
+  303  jobs
+  304  fg
+  305  jobs
+  306  fg
+  307  jobs
+  308  kill %2 %3
+  309  jobs
+  310  clear
+  311  sleep 300 &
+  312  sleep 200
+  313  sleep 100
+  314  jobs
+  315  fg %1
+  316  bg
+  317  jobs
+  318  fr %1
+  319  fg %1
+  320  jobs
+  321  bg %3
+  322  man kill
+  323  kill -9
+  324  kill -9 -l
+  325  clear
+  326  jobs
+  327  kill -9 -1
+  328  history
+  329  clear
+  330  sleep 300 &
+  331  sleep 200
+  332  sleep 100
+  333  fr %1
+  334  fg %1
+  335  jobs
+  336  bg %3
+  337  jobs
+  338  kill $(jobs -p)
+  339  jobs
+  340  kill -9 $(jobs -p)
+  341  jobs
+  342  man jobs
+  343  jobs
+  344  sleep 100
+  345  man jobs
+  346  kill -9 $(jobs -p)
+  347  jobs
+  348  clear
+  349  man sort
+  350  find . dia
+  351  clear
+  352  find . 
+  353  clear
+  354  cd Trybe/
+  355  find . *dia*
+  356  find . -i *dia*
+  357  find . *.txt
+  358  clear
+  359  find .
+  360  clear
+  361  find . -type f *.txt
+  362  find . -type f -name *.txt
+  363  find . -type f -name "*.txt"
+  364  find . -type d -name "dia"
+  365  find . -type d -name "*dia*"
+  366  cd ./trybe-exercicios/fundamentos/bloco-01-unix-e-shell/dia-02-unix-e-bash-parte-02
+  367  ls
+  368  cd unix_tests/
+  369  sudo apt-get install cmatrix
+  370  clear
+  371  cmatrix
+  372  sudo apt-get install fortune
+  373  clear
+  374  fortune > fortune.txt
+  375  cat fortune.txt 
+  376  wc -w fortune.txt 
+  377  sudo apt-get install sl
+  378  sl
+  379  clear
+  380  sl -F
+  381  clear
+  382  sudo apt-get install cowsay
+  383  cowsay
+  384  jobs
+  385  clear
+  386  cowsay fortune.txt 
+  387  cowsay cat fortune.txt 
+  388  cat fortune.txt | cowsay
+  389  factor 42
+  390  rev fortune.txt | cowsay
+  391  clear
+  392  telnet towel.blinkenlights.nl
+  393  clear
+  394  ls
+  395  cat countries.txt phrases.txt > bunch_of_things.txt 
+  396  less bunch_of_things.txt 
+  397  sort -o bunch_of_things.txt 
+  398  less bunch_of_things.txt 
+  399  sort -o bunch_of_things.txt > bunch_of_things.txt 
+  400  less bunch_of_things.txt 
+  401  cat countries.txt phrases.txt > bunch_of_things.txt 
+  402  less bunch_of_things.txt 
+  403  clear
+  404  sort -o bunch_of_things.txt
+  405  less bunch_of_things.txt 
+  406  sort -o bunch_of_things.txt | > bunch_of_things.txt 
+  407  less bunch_of_things.txt 
+  408  cat countries.txt phrases.txt > bunch_of_things.txt 
+  409  less bunch_of_things.txt 
+  410  clear
+  411  sort -o bunch_of_things.txt bunch_of_things.txt 
+  412  less bunch_of_things.txt 
+  413  less phrases.txt 
+  414  cat countries.txt phrases.txt > bunch_of_things.txt 
+  415  less bunch_of_things.txt 
+  416  cat phrases.txt countries.txt > bunch_of_things.txt
+  417  less bunch_of_things.txt 
+  418  sort -o bunch_of_things.txt > bunch_of_things.txt 
+  419  sort -o bunch_of_things.txt bunch_of_things.txt 
+  420  less bunch_of_things.txt 
+  421  cat phrases.txt countries.txt > bunch_of_things.txt
+  422  sort -o bunch_of_things.txt bunch_of_things.txt 
+  423  less bunch_of_things.txt 
+  424  man sort
+  425  sort bunch_of_things.txt 
+  426  clear
+  427  sort -o bunch_of_things.txt phrases2.txt 
+  428  less phrases2.txt 
+  429  less bunch_of_things.txt 
+  430  cat phrases.txt countries.txt > bunch_of_things.txt
+  431  less bunch_of_things.txt 
+  432  sort -o bunch_of_things.txt inv.txt
+  433  less bunch_of_things.txt 
+  434  history | tail -200 > history.txt

@@ -1,0 +1,76 @@
+  195  ls
+  196  mkdir Trybe-exercicios
+  197  ls
+  198  mv Trybe-exercicios trybe-exercicios
+  199  ls
+  200  cd trybe-exercicios/
+  201  mkdir fundamentos front-end back-end ciencia-da-computacao
+  202  ls
+  203  cd fundamentos/
+  204  mkdir bloco-01-unix-e-shell bloco-02-git-github-e-internet bloco-03-introducao-a-html-e-css
+  205  ls
+  206  cd bloco-01-unix-e-shell/
+  207  clear
+  208  mkdir Fundamentos do Desenvolvimento Web
+  209  Introdução - Unix & Shell
+  210  ls
+  211  rm Desenvolvimento
+  212  rmdir Desenvolvimento
+  213  ls
+  214  rmdir *
+  215  ls
+  216  mkdir dia-01-unix-e-bash
+  217  ls
+  218  mv dia-01-unix-e-bash dia-01-unix-e-bash-parte-01
+  219  ls
+  220  mkdir dia-02-unix-e-bash-parte-02
+  221  ls
+  222  cd dia-01-unix-e-bash-parte-01/
+  223  mkdir unix_tests
+  224  ls
+  225  cd unix_tests/
+  226  touch trybe.txt
+  227  ls
+  228  clear
+  229  mv trybe.txt trybe_backup.txt
+  230  ls
+  231  mv trybe_backup.txt trybe.txt
+  232  ls
+  233  cp trybe.txt trybe_backup.txt
+  234  ls
+  235  mv trybe.txt trybe_novo.txt
+  236  ls
+  237  mkdir backup
+  238  ls
+  239  mv trybe_backup.txt backup
+  240  ls
+  241  mkdir backup2
+  242  ls
+  243  clear
+  244  cd backup
+  245  ls
+  246  mv trybe_backup.txt ../backup2
+  247  ls
+  248  rmdir ../backup
+  249  cd ..
+  250  ls
+  251  mv backup2 backup
+  252  ls
+  253  pwd
+  254  ls
+  255  rmdir backup/
+  256  rm -rf backup/
+  257  ls
+  258  clear
+  259  touch skills.txt
+  260  ls
+  261  cat > skills.txt
+  262  ls
+  263  cat skills.txt 
+  264  head -5 skills.txt 
+  265  tail -4 skills.txt 
+  266  clear
+  267  ls
+  268  rm *.txt
+  269  ls
+  270  history | tail -n 200 > meus_comandos.txt
