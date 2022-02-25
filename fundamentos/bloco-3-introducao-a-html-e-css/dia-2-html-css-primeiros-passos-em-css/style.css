@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body {
+    font-style: italic;
+    line-height: 1cm;
+    text-align: center;
+    font-size: 16px;
+}
+
+#Yellow {
+    color: yellow;
+}
+
+#Red {
+    color: red;
+}
+
+#Brown {
+    color: brown;
+}
