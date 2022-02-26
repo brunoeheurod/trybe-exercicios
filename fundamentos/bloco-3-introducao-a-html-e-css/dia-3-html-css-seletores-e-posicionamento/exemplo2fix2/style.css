@@ -1,0 +1,27 @@
+p {
+  font-family: fantasy;
+  font-weight: normal;
+}
+
+
+div:first-of-type h3:hover {
+    background-color: blue;
+}
+
+div:nth-of-type(2) :hover{
+  background-color: green;
+}
+div:nth-of-type(3) :hover{
+  background-color: purple;
+}
+div:nth-of-type(4) :hover{
+  background-color: darkred;
+}
+div:nth-of-type(5) :hover{
+  background-color: cyan;
+}
+
+div:nth-of-type(2n+1) h3{
+  font-style: italic;
+}
+
