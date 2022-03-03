@@ -27,3 +27,39 @@ li {
 li em{
   font-weight: bold;
 }
+
+ul:first-of-type li:nth-child(-n+3){
+  color: blue;
+}
+
+
+ul:nth-of-type(2) li:nth-child(1):hover{
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+}
+ul:nth-of-type(2) li:nth-child(2):hover{
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+ul:nth-of-type(2) li:nth-child(3) a:hover{
+  background-color: black;
+  font-weight: bold;
+  display: block;
+  color: white;
+}
+ul:nth-of-type(2) li:nth-child(4):hover{
+  background-color: yellow;
+  font-weight: bold;
+  
+}
+ul:nth-of-type(2) li:nth-child(5):hover{
+  background-color: greenyellow;
+  font-weight: bold;
+  
+}
+ul:nth-of-type(2) li a{
+  text-decoration: none;
+  color: black;
+}
